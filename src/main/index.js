@@ -51,6 +51,7 @@ function createWindow() {
     titleBarStyle: 'hidden',
     frame: false,
     backgroundColor: '#0f0f0f',
+    icon: path.join(__dirname, '../../public/logo.ico')
   })
 
   if (process.env.NODE_ENV === 'development') {
